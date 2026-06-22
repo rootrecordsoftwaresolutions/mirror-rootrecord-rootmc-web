@@ -1,0 +1,13 @@
+node_modules/
+build/
+.wrangler/
+*.log
+.deploy-last.log
+deploy-last.log
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+# Plugin jars are built in the Minecraft monorepo — keep manifest only
+public/plugins/*.jar
